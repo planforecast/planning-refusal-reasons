@@ -1,0 +1,377 @@
+lpa_name,lpa_ons_code,proposal_type,refusals,refusals_read,topic,refusals_citing_topic,window_months
+North Yorkshire,E06000065,all,740,692,design_character,251,36
+North Yorkshire,E06000065,all,740,692,heritage,137,36
+North Yorkshire,E06000065,all,740,692,residential_amenity,136,36
+North Yorkshire,E06000065,all,740,692,green_belt_open_countryside,130,36
+North Yorkshire,E06000065,all,740,692,insufficient_information,128,36
+North Yorkshire,E06000065,all,740,692,permitted_development,113,36
+North Yorkshire,E06000065,all,740,692,highway_parking,90,36
+North Yorkshire,E06000065,all,740,692,principle_of_development,55,36
+North Yorkshire,E06000065,all,740,692,living_conditions_future_occupiers,45,36
+North Yorkshire,E06000065,all,740,692,trees_landscape_ecology,41,36
+North Yorkshire,E06000065,all,740,692,flood_drainage,39,36
+North Yorkshire,E06000065,all,740,692,neighbouring_land_use_conflict,5,36
+North Yorkshire,E06000065,all,740,692,other,3,36
+Leeds,E08000035,all,1657,1611,design_character,764,36
+Leeds,E08000035,all,1657,1611,residential_amenity,441,36
+Leeds,E08000035,all,1657,1611,permitted_development,301,36
+Leeds,E08000035,all,1657,1611,highway_parking,182,36
+Leeds,E08000035,all,1657,1611,insufficient_information,153,36
+Leeds,E08000035,all,1657,1611,living_conditions_future_occupiers,151,36
+Leeds,E08000035,all,1657,1611,green_belt_open_countryside,107,36
+Leeds,E08000035,all,1657,1611,heritage,102,36
+Leeds,E08000035,all,1657,1611,trees_landscape_ecology,102,36
+Leeds,E08000035,all,1657,1611,principle_of_development,40,36
+Leeds,E08000035,all,1657,1611,flood_drainage,13,36
+Leeds,E08000035,all,1657,1611,other,6,36
+Leeds,E08000035,all,1657,1611,neighbouring_land_use_conflict,5,36
+Cheshire West and Chester,E06000050,all,316,308,design_character,163,36
+Cheshire West and Chester,E06000050,all,316,308,green_belt_open_countryside,72,36
+Cheshire West and Chester,E06000050,all,316,308,residential_amenity,67,36
+Cheshire West and Chester,E06000050,all,316,308,permitted_development,51,36
+Cheshire West and Chester,E06000050,all,316,308,insufficient_information,41,36
+Cheshire West and Chester,E06000050,all,316,308,highway_parking,28,36
+Cheshire West and Chester,E06000050,all,316,308,heritage,27,36
+Cheshire West and Chester,E06000050,all,316,308,principle_of_development,20,36
+Cheshire West and Chester,E06000050,all,316,308,trees_landscape_ecology,11,36
+Cheshire West and Chester,E06000050,all,316,308,living_conditions_future_occupiers,9,36
+Cheshire West and Chester,E06000050,all,316,308,other,5,36
+Cheshire West and Chester,E06000050,all,316,308,flood_drainage,4,36
+Cheshire West and Chester,E06000050,all,316,308,neighbouring_land_use_conflict,1,36
+Stockport,E08000007,all,191,178,permitted_development,55,36
+Stockport,E08000007,all,191,178,design_character,47,36
+Stockport,E08000007,all,191,178,residential_amenity,41,36
+Stockport,E08000007,all,191,178,heritage,27,36
+Stockport,E08000007,all,191,178,living_conditions_future_occupiers,24,36
+Stockport,E08000007,all,191,178,insufficient_information,17,36
+Stockport,E08000007,all,191,178,highway_parking,16,36
+Stockport,E08000007,all,191,178,green_belt_open_countryside,6,36
+Stockport,E08000007,all,191,178,flood_drainage,1,36
+Stockport,E08000007,all,191,178,principle_of_development,1,36
+Trafford,E08000009,all,595,587,design_character,336,36
+Trafford,E08000009,all,595,587,residential_amenity,158,36
+Trafford,E08000009,all,595,587,permitted_development,143,36
+Trafford,E08000009,all,595,587,heritage,57,36
+Trafford,E08000009,all,595,587,insufficient_information,23,36
+Trafford,E08000009,all,595,587,living_conditions_future_occupiers,23,36
+Trafford,E08000009,all,595,587,highway_parking,13,36
+Trafford,E08000009,all,595,587,trees_landscape_ecology,9,36
+Trafford,E08000009,all,595,587,principle_of_development,8,36
+Trafford,E08000009,all,595,587,green_belt_open_countryside,3,36
+Trafford,E08000009,all,595,587,neighbouring_land_use_conflict,2,36
+Trafford,E08000009,all,595,587,flood_drainage,1,36
+York,E06000014,all,398,390,design_character,170,36
+York,E06000014,all,398,390,residential_amenity,112,36
+York,E06000014,all,398,390,highway_parking,77,36
+York,E06000014,all,398,390,heritage,37,36
+York,E06000014,all,398,390,green_belt_open_countryside,36,36
+York,E06000014,all,398,390,insufficient_information,35,36
+York,E06000014,all,398,390,living_conditions_future_occupiers,32,36
+York,E06000014,all,398,390,permitted_development,23,36
+York,E06000014,all,398,390,principle_of_development,14,36
+York,E06000014,all,398,390,flood_drainage,11,36
+York,E06000014,all,398,390,trees_landscape_ecology,8,36
+York,E06000014,all,398,390,neighbouring_land_use_conflict,5,36
+Salford,E08000006,all,61,61,design_character,30,7
+Salford,E08000006,all,61,61,residential_amenity,23,7
+Salford,E08000006,all,61,61,living_conditions_future_occupiers,8,7
+Salford,E08000006,all,61,61,heritage,7,7
+Salford,E08000006,all,61,61,insufficient_information,7,7
+Salford,E08000006,all,61,61,permitted_development,6,7
+Salford,E08000006,all,61,61,neighbouring_land_use_conflict,4,7
+Salford,E08000006,all,61,61,highway_parking,4,7
+Salford,E08000006,all,61,61,trees_landscape_ecology,4,7
+Salford,E08000006,all,61,61,flood_drainage,3,7
+Salford,E08000006,all,61,61,green_belt_open_countryside,2,7
+North Yorkshire,E06000065,change_of_use,251,236,insufficient_information,68,36
+North Yorkshire,E06000065,change_of_use,251,236,green_belt_open_countryside,66,36
+North Yorkshire,E06000065,change_of_use,251,236,highway_parking,57,36
+North Yorkshire,E06000065,change_of_use,251,236,permitted_development,55,36
+North Yorkshire,E06000065,change_of_use,251,236,design_character,51,36
+North Yorkshire,E06000065,change_of_use,251,236,residential_amenity,38,36
+North Yorkshire,E06000065,change_of_use,251,236,principle_of_development,31,36
+North Yorkshire,E06000065,change_of_use,251,236,flood_drainage,25,36
+North Yorkshire,E06000065,change_of_use,251,236,living_conditions_future_occupiers,23,36
+North Yorkshire,E06000065,change_of_use,251,236,heritage,22,36
+North Yorkshire,E06000065,change_of_use,251,236,trees_landscape_ecology,18,36
+North Yorkshire,E06000065,change_of_use,251,236,neighbouring_land_use_conflict,5,36
+North Yorkshire,E06000065,change_of_use,251,236,other,3,36
+North Yorkshire,E06000065,rear_extension,80,70,permitted_development,21,36
+North Yorkshire,E06000065,rear_extension,80,70,heritage,20,36
+North Yorkshire,E06000065,rear_extension,80,70,design_character,17,36
+North Yorkshire,E06000065,rear_extension,80,70,residential_amenity,13,36
+North Yorkshire,E06000065,rear_extension,80,70,green_belt_open_countryside,4,36
+North Yorkshire,E06000065,rear_extension,80,70,insufficient_information,4,36
+North Yorkshire,E06000065,rear_extension,80,70,living_conditions_future_occupiers,2,36
+North Yorkshire,E06000065,rear_extension,80,70,flood_drainage,1,36
+North Yorkshire,E06000065,outbuilding,109,108,design_character,43,36
+North Yorkshire,E06000065,outbuilding,109,108,heritage,33,36
+North Yorkshire,E06000065,outbuilding,109,108,green_belt_open_countryside,19,36
+North Yorkshire,E06000065,outbuilding,109,108,residential_amenity,18,36
+North Yorkshire,E06000065,outbuilding,109,108,permitted_development,17,36
+North Yorkshire,E06000065,outbuilding,109,108,insufficient_information,10,36
+North Yorkshire,E06000065,outbuilding,109,108,highway_parking,6,36
+North Yorkshire,E06000065,outbuilding,109,108,principle_of_development,6,36
+North Yorkshire,E06000065,outbuilding,109,108,trees_landscape_ecology,5,36
+North Yorkshire,E06000065,outbuilding,109,108,living_conditions_future_occupiers,4,36
+North Yorkshire,E06000065,outbuilding,109,108,flood_drainage,2,36
+North Yorkshire,E06000065,two_storey_extension,123,112,design_character,52,36
+North Yorkshire,E06000065,two_storey_extension,123,112,residential_amenity,39,36
+North Yorkshire,E06000065,two_storey_extension,123,112,heritage,20,36
+North Yorkshire,E06000065,two_storey_extension,123,112,green_belt_open_countryside,19,36
+North Yorkshire,E06000065,two_storey_extension,123,112,insufficient_information,13,36
+North Yorkshire,E06000065,two_storey_extension,123,112,highway_parking,9,36
+North Yorkshire,E06000065,two_storey_extension,123,112,permitted_development,9,36
+North Yorkshire,E06000065,two_storey_extension,123,112,living_conditions_future_occupiers,5,36
+North Yorkshire,E06000065,two_storey_extension,123,112,trees_landscape_ecology,5,36
+North Yorkshire,E06000065,two_storey_extension,123,112,principle_of_development,2,36
+North Yorkshire,E06000065,two_storey_extension,123,112,flood_drainage,1,36
+North Yorkshire,E06000065,loft_dormer,78,75,design_character,36,36
+North Yorkshire,E06000065,loft_dormer,78,75,heritage,25,36
+North Yorkshire,E06000065,loft_dormer,78,75,insufficient_information,13,36
+North Yorkshire,E06000065,loft_dormer,78,75,residential_amenity,10,36
+North Yorkshire,E06000065,loft_dormer,78,75,permitted_development,6,36
+North Yorkshire,E06000065,loft_dormer,78,75,green_belt_open_countryside,4,36
+North Yorkshire,E06000065,loft_dormer,78,75,living_conditions_future_occupiers,3,36
+North Yorkshire,E06000065,loft_dormer,78,75,principle_of_development,3,36
+North Yorkshire,E06000065,loft_dormer,78,75,flood_drainage,2,36
+North Yorkshire,E06000065,loft_dormer,78,75,highway_parking,1,36
+North Yorkshire,E06000065,new_dwelling_garden,58,52,design_character,29,36
+North Yorkshire,E06000065,new_dwelling_garden,58,52,insufficient_information,18,36
+North Yorkshire,E06000065,new_dwelling_garden,58,52,green_belt_open_countryside,16,36
+North Yorkshire,E06000065,new_dwelling_garden,58,52,highway_parking,13,36
+North Yorkshire,E06000065,new_dwelling_garden,58,52,principle_of_development,13,36
+North Yorkshire,E06000065,new_dwelling_garden,58,52,trees_landscape_ecology,13,36
+North Yorkshire,E06000065,new_dwelling_garden,58,52,residential_amenity,12,36
+North Yorkshire,E06000065,new_dwelling_garden,58,52,flood_drainage,8,36
+North Yorkshire,E06000065,new_dwelling_garden,58,52,heritage,7,36
+North Yorkshire,E06000065,new_dwelling_garden,58,52,living_conditions_future_occupiers,7,36
+Leeds,E08000035,rear_extension,226,214,residential_amenity,78,36
+Leeds,E08000035,rear_extension,226,214,permitted_development,70,36
+Leeds,E08000035,rear_extension,226,214,design_character,58,36
+Leeds,E08000035,rear_extension,226,214,insufficient_information,26,36
+Leeds,E08000035,rear_extension,226,214,heritage,11,36
+Leeds,E08000035,rear_extension,226,214,highway_parking,11,36
+Leeds,E08000035,rear_extension,226,214,living_conditions_future_occupiers,10,36
+Leeds,E08000035,rear_extension,226,214,trees_landscape_ecology,8,36
+Leeds,E08000035,rear_extension,226,214,green_belt_open_countryside,7,36
+Leeds,E08000035,rear_extension,226,214,flood_drainage,1,36
+Leeds,E08000035,loft_dormer,336,322,design_character,200,36
+Leeds,E08000035,loft_dormer,336,322,permitted_development,86,36
+Leeds,E08000035,loft_dormer,336,322,residential_amenity,28,36
+Leeds,E08000035,loft_dormer,336,322,insufficient_information,27,36
+Leeds,E08000035,loft_dormer,336,322,heritage,26,36
+Leeds,E08000035,loft_dormer,336,322,living_conditions_future_occupiers,16,36
+Leeds,E08000035,loft_dormer,336,322,highway_parking,6,36
+Leeds,E08000035,loft_dormer,336,322,green_belt_open_countryside,4,36
+Leeds,E08000035,loft_dormer,336,322,trees_landscape_ecology,4,36
+Leeds,E08000035,loft_dormer,336,322,principle_of_development,2,36
+Leeds,E08000035,two_storey_extension,418,414,design_character,299,36
+Leeds,E08000035,two_storey_extension,418,414,residential_amenity,162,36
+Leeds,E08000035,two_storey_extension,418,414,insufficient_information,31,36
+Leeds,E08000035,two_storey_extension,418,414,permitted_development,29,36
+Leeds,E08000035,two_storey_extension,418,414,trees_landscape_ecology,27,36
+Leeds,E08000035,two_storey_extension,418,414,highway_parking,26,36
+Leeds,E08000035,two_storey_extension,418,414,green_belt_open_countryside,21,36
+Leeds,E08000035,two_storey_extension,418,414,living_conditions_future_occupiers,14,36
+Leeds,E08000035,two_storey_extension,418,414,heritage,6,36
+Leeds,E08000035,two_storey_extension,418,414,flood_drainage,3,36
+Leeds,E08000035,two_storey_extension,418,414,principle_of_development,2,36
+Leeds,E08000035,change_of_use,353,347,residential_amenity,117,36
+Leeds,E08000035,change_of_use,353,347,highway_parking,102,36
+Leeds,E08000035,change_of_use,353,347,living_conditions_future_occupiers,89,36
+Leeds,E08000035,change_of_use,353,347,design_character,62,36
+Leeds,E08000035,change_of_use,353,347,green_belt_open_countryside,47,36
+Leeds,E08000035,change_of_use,353,347,permitted_development,44,36
+Leeds,E08000035,change_of_use,353,347,insufficient_information,37,36
+Leeds,E08000035,change_of_use,353,347,principle_of_development,32,36
+Leeds,E08000035,change_of_use,353,347,heritage,29,36
+Leeds,E08000035,change_of_use,353,347,trees_landscape_ecology,27,36
+Leeds,E08000035,change_of_use,353,347,flood_drainage,6,36
+Leeds,E08000035,change_of_use,353,347,neighbouring_land_use_conflict,5,36
+Leeds,E08000035,change_of_use,353,347,other,5,36
+Leeds,E08000035,outbuilding,164,159,design_character,63,36
+Leeds,E08000035,outbuilding,164,159,permitted_development,44,36
+Leeds,E08000035,outbuilding,164,159,residential_amenity,37,36
+Leeds,E08000035,outbuilding,164,159,green_belt_open_countryside,19,36
+Leeds,E08000035,outbuilding,164,159,highway_parking,19,36
+Leeds,E08000035,outbuilding,164,159,insufficient_information,19,36
+Leeds,E08000035,outbuilding,164,159,trees_landscape_ecology,17,36
+Leeds,E08000035,outbuilding,164,159,heritage,11,36
+Leeds,E08000035,outbuilding,164,159,living_conditions_future_occupiers,5,36
+Leeds,E08000035,outbuilding,164,159,flood_drainage,2,36
+Leeds,E08000035,outbuilding,164,159,principle_of_development,1,36
+Leeds,E08000035,side_extension,59,56,design_character,29,36
+Leeds,E08000035,side_extension,59,56,permitted_development,13,36
+Leeds,E08000035,side_extension,59,56,residential_amenity,7,36
+Leeds,E08000035,side_extension,59,56,heritage,4,36
+Leeds,E08000035,side_extension,59,56,green_belt_open_countryside,3,36
+Leeds,E08000035,side_extension,59,56,trees_landscape_ecology,3,36
+Leeds,E08000035,side_extension,59,56,highway_parking,2,36
+Leeds,E08000035,side_extension,59,56,insufficient_information,2,36
+Leeds,E08000035,side_extension,59,56,living_conditions_future_occupiers,2,36
+Leeds,E08000035,porch_front,47,46,design_character,29,36
+Leeds,E08000035,porch_front,47,46,permitted_development,8,36
+Leeds,E08000035,porch_front,47,46,highway_parking,6,36
+Leeds,E08000035,porch_front,47,46,heritage,5,36
+Leeds,E08000035,porch_front,47,46,insufficient_information,4,36
+Leeds,E08000035,porch_front,47,46,living_conditions_future_occupiers,3,36
+Leeds,E08000035,porch_front,47,46,residential_amenity,2,36
+Leeds,E08000035,porch_front,47,46,green_belt_open_countryside,1,36
+Leeds,E08000035,new_dwelling_garden,37,37,design_character,16,36
+Leeds,E08000035,new_dwelling_garden,37,37,trees_landscape_ecology,16,36
+Leeds,E08000035,new_dwelling_garden,37,37,living_conditions_future_occupiers,11,36
+Leeds,E08000035,new_dwelling_garden,37,37,heritage,9,36
+Leeds,E08000035,new_dwelling_garden,37,37,highway_parking,9,36
+Leeds,E08000035,new_dwelling_garden,37,37,residential_amenity,8,36
+Leeds,E08000035,new_dwelling_garden,37,37,green_belt_open_countryside,5,36
+Leeds,E08000035,new_dwelling_garden,37,37,insufficient_information,5,36
+Leeds,E08000035,new_dwelling_garden,37,37,principle_of_development,3,36
+Leeds,E08000035,new_dwelling_garden,37,37,flood_drainage,1,36
+Leeds,E08000035,new_dwelling_garden,37,37,permitted_development,1,36
+Leeds,E08000035,new_dwelling_garden,37,37,other,1,36
+Cheshire West and Chester,E06000050,rear_extension,42,41,design_character,18,36
+Cheshire West and Chester,E06000050,rear_extension,42,41,residential_amenity,12,36
+Cheshire West and Chester,E06000050,rear_extension,42,41,permitted_development,11,36
+Cheshire West and Chester,E06000050,rear_extension,42,41,green_belt_open_countryside,6,36
+Cheshire West and Chester,E06000050,rear_extension,42,41,heritage,2,36
+Cheshire West and Chester,E06000050,rear_extension,42,41,insufficient_information,2,36
+Cheshire West and Chester,E06000050,rear_extension,42,41,trees_landscape_ecology,1,36
+Cheshire West and Chester,E06000050,two_storey_extension,67,67,design_character,52,36
+Cheshire West and Chester,E06000050,two_storey_extension,67,67,residential_amenity,20,36
+Cheshire West and Chester,E06000050,two_storey_extension,67,67,green_belt_open_countryside,16,36
+Cheshire West and Chester,E06000050,two_storey_extension,67,67,heritage,7,36
+Cheshire West and Chester,E06000050,two_storey_extension,67,67,insufficient_information,4,36
+Cheshire West and Chester,E06000050,two_storey_extension,67,67,trees_landscape_ecology,3,36
+Cheshire West and Chester,E06000050,two_storey_extension,67,67,highway_parking,1,36
+Cheshire West and Chester,E06000050,two_storey_extension,67,67,permitted_development,1,36
+Cheshire West and Chester,E06000050,change_of_use,79,76,highway_parking,23,36
+Cheshire West and Chester,E06000050,change_of_use,79,76,design_character,22,36
+Cheshire West and Chester,E06000050,change_of_use,79,76,insufficient_information,21,36
+Cheshire West and Chester,E06000050,change_of_use,79,76,green_belt_open_countryside,19,36
+Cheshire West and Chester,E06000050,change_of_use,79,76,permitted_development,17,36
+Cheshire West and Chester,E06000050,change_of_use,79,76,residential_amenity,16,36
+Cheshire West and Chester,E06000050,change_of_use,79,76,principle_of_development,10,36
+Cheshire West and Chester,E06000050,change_of_use,79,76,heritage,5,36
+Cheshire West and Chester,E06000050,change_of_use,79,76,living_conditions_future_occupiers,5,36
+Cheshire West and Chester,E06000050,change_of_use,79,76,other,5,36
+Cheshire West and Chester,E06000050,change_of_use,79,76,trees_landscape_ecology,3,36
+Cheshire West and Chester,E06000050,change_of_use,79,76,flood_drainage,1,36
+Cheshire West and Chester,E06000050,outbuilding,54,51,design_character,27,36
+Cheshire West and Chester,E06000050,outbuilding,54,51,permitted_development,18,36
+Cheshire West and Chester,E06000050,outbuilding,54,51,green_belt_open_countryside,12,36
+Cheshire West and Chester,E06000050,outbuilding,54,51,residential_amenity,6,36
+Cheshire West and Chester,E06000050,outbuilding,54,51,insufficient_information,4,36
+Cheshire West and Chester,E06000050,outbuilding,54,51,principle_of_development,3,36
+Cheshire West and Chester,E06000050,outbuilding,54,51,trees_landscape_ecology,3,36
+Cheshire West and Chester,E06000050,outbuilding,54,51,heritage,2,36
+Cheshire West and Chester,E06000050,outbuilding,54,51,living_conditions_future_occupiers,2,36
+Cheshire West and Chester,E06000050,outbuilding,54,51,flood_drainage,1,36
+Cheshire West and Chester,E06000050,outbuilding,54,51,highway_parking,1,36
+Stockport,E08000007,rear_extension,36,33,permitted_development,18,36
+Stockport,E08000007,rear_extension,36,33,residential_amenity,11,36
+Stockport,E08000007,rear_extension,36,33,heritage,3,36
+Stockport,E08000007,rear_extension,36,33,design_character,2,36
+Stockport,E08000007,rear_extension,36,33,living_conditions_future_occupiers,2,36
+Stockport,E08000007,rear_extension,36,33,insufficient_information,1,36
+Stockport,E08000007,two_storey_extension,44,42,design_character,22,36
+Stockport,E08000007,two_storey_extension,44,42,residential_amenity,15,36
+Stockport,E08000007,two_storey_extension,44,42,living_conditions_future_occupiers,6,36
+Stockport,E08000007,two_storey_extension,44,42,heritage,5,36
+Stockport,E08000007,two_storey_extension,44,42,highway_parking,4,36
+Stockport,E08000007,two_storey_extension,44,42,permitted_development,4,36
+Stockport,E08000007,two_storey_extension,44,42,insufficient_information,1,36
+Stockport,E08000007,change_of_use,43,38,insufficient_information,12,36
+Stockport,E08000007,change_of_use,43,38,living_conditions_future_occupiers,12,36
+Stockport,E08000007,change_of_use,43,38,highway_parking,10,36
+Stockport,E08000007,change_of_use,43,38,residential_amenity,8,36
+Stockport,E08000007,change_of_use,43,38,heritage,6,36
+Stockport,E08000007,change_of_use,43,38,permitted_development,6,36
+Stockport,E08000007,change_of_use,43,38,design_character,5,36
+Stockport,E08000007,change_of_use,43,38,green_belt_open_countryside,2,36
+Stockport,E08000007,change_of_use,43,38,flood_drainage,1,36
+Stockport,E08000007,change_of_use,43,38,principle_of_development,1,36
+Trafford,E08000009,rear_extension,153,148,permitted_development,72,36
+Trafford,E08000009,rear_extension,153,148,residential_amenity,42,36
+Trafford,E08000009,rear_extension,153,148,design_character,35,36
+Trafford,E08000009,rear_extension,153,148,heritage,14,36
+Trafford,E08000009,rear_extension,153,148,living_conditions_future_occupiers,4,36
+Trafford,E08000009,rear_extension,153,148,highway_parking,2,36
+Trafford,E08000009,rear_extension,153,148,insufficient_information,2,36
+Trafford,E08000009,rear_extension,153,148,principle_of_development,1,36
+Trafford,E08000009,two_storey_extension,220,219,design_character,192,36
+Trafford,E08000009,two_storey_extension,220,219,residential_amenity,76,36
+Trafford,E08000009,two_storey_extension,220,219,heritage,19,36
+Trafford,E08000009,two_storey_extension,220,219,permitted_development,11,36
+Trafford,E08000009,two_storey_extension,220,219,living_conditions_future_occupiers,5,36
+Trafford,E08000009,two_storey_extension,220,219,highway_parking,4,36
+Trafford,E08000009,two_storey_extension,220,219,trees_landscape_ecology,4,36
+Trafford,E08000009,two_storey_extension,220,219,insufficient_information,2,36
+Trafford,E08000009,loft_dormer,99,98,design_character,57,36
+Trafford,E08000009,loft_dormer,99,98,permitted_development,34,36
+Trafford,E08000009,loft_dormer,99,98,residential_amenity,14,36
+Trafford,E08000009,loft_dormer,99,98,heritage,7,36
+Trafford,E08000009,loft_dormer,99,98,insufficient_information,4,36
+Trafford,E08000009,loft_dormer,99,98,trees_landscape_ecology,2,36
+Trafford,E08000009,loft_dormer,99,98,living_conditions_future_occupiers,1,36
+Trafford,E08000009,change_of_use,58,57,design_character,18,36
+Trafford,E08000009,change_of_use,58,57,residential_amenity,16,36
+Trafford,E08000009,change_of_use,58,57,insufficient_information,13,36
+Trafford,E08000009,change_of_use,58,57,permitted_development,10,36
+Trafford,E08000009,change_of_use,58,57,living_conditions_future_occupiers,9,36
+Trafford,E08000009,change_of_use,58,57,principle_of_development,7,36
+Trafford,E08000009,change_of_use,58,57,highway_parking,5,36
+Trafford,E08000009,change_of_use,58,57,heritage,4,36
+Trafford,E08000009,change_of_use,58,57,green_belt_open_countryside,3,36
+Trafford,E08000009,change_of_use,58,57,neighbouring_land_use_conflict,2,36
+Trafford,E08000009,change_of_use,58,57,trees_landscape_ecology,2,36
+Trafford,E08000009,change_of_use,58,57,flood_drainage,1,36
+York,E06000014,rear_extension,46,45,design_character,20,36
+York,E06000014,rear_extension,46,45,residential_amenity,14,36
+York,E06000014,rear_extension,46,45,highway_parking,7,36
+York,E06000014,rear_extension,46,45,permitted_development,6,36
+York,E06000014,rear_extension,46,45,green_belt_open_countryside,5,36
+York,E06000014,rear_extension,46,45,heritage,4,36
+York,E06000014,rear_extension,46,45,living_conditions_future_occupiers,1,36
+York,E06000014,rear_extension,46,45,principle_of_development,1,36
+York,E06000014,change_of_use,147,142,residential_amenity,51,36
+York,E06000014,change_of_use,147,142,highway_parking,45,36
+York,E06000014,change_of_use,147,142,insufficient_information,28,36
+York,E06000014,change_of_use,147,142,living_conditions_future_occupiers,23,36
+York,E06000014,change_of_use,147,142,heritage,15,36
+York,E06000014,change_of_use,147,142,design_character,14,36
+York,E06000014,change_of_use,147,142,green_belt_open_countryside,10,36
+York,E06000014,change_of_use,147,142,principle_of_development,10,36
+York,E06000014,change_of_use,147,142,flood_drainage,8,36
+York,E06000014,change_of_use,147,142,permitted_development,7,36
+York,E06000014,change_of_use,147,142,neighbouring_land_use_conflict,4,36
+York,E06000014,change_of_use,147,142,trees_landscape_ecology,4,36
+York,E06000014,two_storey_extension,92,91,design_character,68,36
+York,E06000014,two_storey_extension,92,91,residential_amenity,29,36
+York,E06000014,two_storey_extension,92,91,highway_parking,16,36
+York,E06000014,two_storey_extension,92,91,heritage,10,36
+York,E06000014,two_storey_extension,92,91,green_belt_open_countryside,7,36
+York,E06000014,two_storey_extension,92,91,insufficient_information,2,36
+York,E06000014,two_storey_extension,92,91,principle_of_development,2,36
+York,E06000014,two_storey_extension,92,91,neighbouring_land_use_conflict,1,36
+York,E06000014,two_storey_extension,92,91,trees_landscape_ecology,1,36
+York,E06000014,loft_dormer,49,48,design_character,37,36
+York,E06000014,loft_dormer,49,48,residential_amenity,6,36
+York,E06000014,loft_dormer,49,48,heritage,5,36
+York,E06000014,loft_dormer,49,48,living_conditions_future_occupiers,3,36
+York,E06000014,loft_dormer,49,48,green_belt_open_countryside,2,36
+York,E06000014,loft_dormer,49,48,permitted_development,2,36
+York,E06000014,loft_dormer,49,48,flood_drainage,1,36
+York,E06000014,loft_dormer,49,48,highway_parking,1,36
+York,E06000014,loft_dormer,49,48,trees_landscape_ecology,1,36
+York,E06000014,outbuilding,40,40,design_character,16,36
+York,E06000014,outbuilding,40,40,residential_amenity,10,36
+York,E06000014,outbuilding,40,40,permitted_development,7,36
+York,E06000014,outbuilding,40,40,green_belt_open_countryside,6,36
+York,E06000014,outbuilding,40,40,highway_parking,4,36
+York,E06000014,outbuilding,40,40,living_conditions_future_occupiers,4,36
+York,E06000014,outbuilding,40,40,heritage,3,36
+York,E06000014,outbuilding,40,40,insufficient_information,3,36
+York,E06000014,outbuilding,40,40,flood_drainage,2,36
+York,E06000014,outbuilding,40,40,trees_landscape_ecology,2,36
+York,E06000014,outbuilding,40,40,principle_of_development,1,36

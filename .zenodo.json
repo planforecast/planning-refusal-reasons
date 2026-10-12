@@ -1,0 +1,25 @@
+{
+  "title": "Why English councils refuse planning permission: decisions and refusal reasons by council and kind of work",
+  "upload_type": "dataset",
+  "description": "<p>Counts of planning decisions and of the reasons councils gave for refusing them, by council and kind of work, for English local planning authorities. Counted by Plan Forecast (<a href=\"https://planforecast.co.uk\">planforecast.co.uk</a>) from the decisions and decision notices councils publish on their own planning registers.</p><p>Two CSV files: refusal reasons by council, kind of work and topic; and decisions and grant rates by council and kind of work. Counts only: no application reference, address, postcode, proposal text, council wording or person's name.</p><p>The latest figures are at <a href=\"https://planforecast.co.uk/data\">planforecast.co.uk/data</a>.</p>",
+  "creators": [{ "name": "Plan Forecast" }],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "planning permission",
+    "planning applications",
+    "refusal reasons",
+    "local planning authorities",
+    "England",
+    "open data"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://planforecast.co.uk/data",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset",
+      "scheme": "url"
+    }
+  ]
+}
