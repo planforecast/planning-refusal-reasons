@@ -36,8 +36,8 @@ Every figure is counted from decisions the councils publish on their own plannin
 
 | File | Rows | One row is |
 | --- | --- | --- |
-| [`data/refusal-reasons.csv`](https://huggingface.co/datasets/planforecast/planning-refusal-reasons/blob/main/refusal-reasons.csv) | 376 | a council, a kind of work and a topic: how many refusals gave a reason about that topic |
-| [`data/decisions.csv`](https://huggingface.co/datasets/planforecast/planning-refusal-reasons/blob/main/decisions.csv) | 80 | a council and a kind of work: decisions, how many were granted, and the dates covered |
+| [`refusal-reasons.csv`](https://huggingface.co/datasets/planforecast/planning-refusal-reasons/blob/main/refusal-reasons.csv) | 376 | a council, a kind of work and a topic: how many refusals gave a reason about that topic |
+| [`decisions.csv`](https://huggingface.co/datasets/planforecast/planning-refusal-reasons/blob/main/decisions.csv) | 80 | a council and a kind of work: decisions, how many were granted, and the dates covered |
 
 This snapshot covers 89,096 decisions in eight councils, and 3,958 refusals in seven of them, 3,827 of whose decision notices were read.
 
