@@ -134,7 +134,9 @@ The figures on [planforecast.co.uk/data](https://planforecast.co.uk/data) are ge
 
 ## How to cite
 
-> Plan Forecast (2026). Why English councils refuse planning permission: decisions and refusal reasons by council and kind of work. https://planforecast.co.uk/data
+> Plan Forecast (2026). Why English councils refuse planning permission: decisions and refusal reasons by council and kind of work. Zenodo. https://doi.org/10.5281/zenodo.23327502. Source: https://planforecast.co.uk/data
+
+That DOI always resolves to the latest snapshot; each snapshot also has a DOI of its own, listed on the Zenodo record.
 
 Attribution, where you reuse the figures:
 

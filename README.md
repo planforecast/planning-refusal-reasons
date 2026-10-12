@@ -1,11 +1,14 @@
 # Why English councils refuse planning permission
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23327502.svg)](https://doi.org/10.5281/zenodo.23327502)
+
 Counts of planning decisions and of the reasons councils gave for refusing them, by council and kind of work, for English local planning authorities. Published by [Plan Forecast](https://planforecast.co.uk).
 
 - **Source and latest figures:** <https://planforecast.co.uk/data>
 - **How the figures are counted:** <https://planforecast.co.uk/how-it-works>
 - **Licence:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - **This snapshot:** 12 October 2026
+- **DOI:** [10.5281/zenodo.23327502](https://doi.org/10.5281/zenodo.23327502)
 
 Every figure is counted from decisions the councils publish on their own planning registers, and from the decision notices they publish with each refusal.
 
@@ -111,7 +114,9 @@ The figures on [planforecast.co.uk/data](https://planforecast.co.uk/data) are ge
 
 ## How to cite
 
-> Plan Forecast (2026). Why English councils refuse planning permission: decisions and refusal reasons by council and kind of work. https://planforecast.co.uk/data
+> Plan Forecast (2026). Why English councils refuse planning permission: decisions and refusal reasons by council and kind of work. Zenodo. https://doi.org/10.5281/zenodo.23327502. Source: https://planforecast.co.uk/data
+
+That DOI always resolves to the latest snapshot; each snapshot also has a DOI of its own, listed on the Zenodo record.
 
 Attribution, where you reuse the figures:
 
