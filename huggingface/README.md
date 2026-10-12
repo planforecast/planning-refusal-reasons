@@ -15,10 +15,10 @@ size_categories:
   - n<1K
 configs:
   - config_name: refusal_reasons
-    data_files: data/refusal-reasons.csv
+    data_files: refusal-reasons.csv
     default: true
   - config_name: decisions
-    data_files: data/decisions.csv
+    data_files: decisions.csv
 ---
 
 # Why English councils refuse planning permission
@@ -36,8 +36,8 @@ Every figure is counted from decisions the councils publish on their own plannin
 
 | File | Rows | One row is |
 | --- | --- | --- |
-| [`data/refusal-reasons.csv`](https://huggingface.co/datasets/planforecast/planning-refusal-reasons/blob/main/data/refusal-reasons.csv) | 376 | a council, a kind of work and a topic: how many refusals gave a reason about that topic |
-| [`data/decisions.csv`](https://huggingface.co/datasets/planforecast/planning-refusal-reasons/blob/main/data/decisions.csv) | 80 | a council and a kind of work: decisions, how many were granted, and the dates covered |
+| [`data/refusal-reasons.csv`](https://huggingface.co/datasets/planforecast/planning-refusal-reasons/blob/main/refusal-reasons.csv) | 376 | a council, a kind of work and a topic: how many refusals gave a reason about that topic |
+| [`data/decisions.csv`](https://huggingface.co/datasets/planforecast/planning-refusal-reasons/blob/main/decisions.csv) | 80 | a council and a kind of work: decisions, how many were granted, and the dates covered |
 
 This snapshot covers 89,096 decisions in eight councils, and 3,958 refusals in seven of them, 3,827 of whose decision notices were read.
 
@@ -120,7 +120,7 @@ Kinds of work:
 ```python
 import pandas as pd
 
-reasons = pd.read_csv("data/refusal-reasons.csv")
+reasons = pd.read_csv("hf://datasets/planforecast/planning-refusal-reasons/refusal-reasons.csv")
 reasons["share"] = reasons["refusals_citing_topic"] / reasons["refusals_read"]
 
 # What gets a rear extension refused, council by council
