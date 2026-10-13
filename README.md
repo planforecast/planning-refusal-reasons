@@ -112,6 +112,14 @@ print(rear.pivot(index="topic", columns="lpa_name", values="share").round(2))
 
 The figures on [planforecast.co.uk/data](https://planforecast.co.uk/data) are generated from the live counts and change daily. This copy is a dated snapshot; each release here is a new snapshot. `./update.sh` refreshes the files from the site.
 
+## Where else it is published
+
+The same files, each linking back to [planforecast.co.uk/data](https://planforecast.co.uk/data):
+
+- **Zenodo:** <https://doi.org/10.5281/zenodo.23327502>
+- **Kaggle:** <https://www.kaggle.com/datasets/planforecast/why-english-councils-refuse-planning-permission>
+- **Hugging Face:** <https://huggingface.co/datasets/planforecast/planning-refusal-reasons>
+
 ## How to cite
 
 > Plan Forecast (2026). Why English councils refuse planning permission: decisions and refusal reasons by council and kind of work. Zenodo. https://doi.org/10.5281/zenodo.23327502. Source: https://planforecast.co.uk/data
