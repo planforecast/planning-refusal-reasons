@@ -1,53 +1,77 @@
-# Why English councils refuse planning permission
+# The Plan Forecast Planning Decisions Report
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23327502.svg)](https://doi.org/10.5281/zenodo.23327502)
 
-Counts of planning decisions and of the reasons councils gave for refusing them, by council and kind of work, for English local planning authorities. Published by [Plan Forecast](https://planforecast.co.uk).
+Planning decisions, decision times and the reasons councils gave for refusing applications, by council and kind of work, for the English councils Plan Forecast reads. The data of [The Plan Forecast Planning Decisions Report](https://planforecast.co.uk/research/planning-decisions), published monthly by [Plan Forecast](https://planforecast.co.uk); each edition is frozen, and is a version of the same DOI.
 
-- **Source and latest figures:** <https://planforecast.co.uk/data>
-- **How the figures are counted:** <https://planforecast.co.uk/how-it-works>
+- **This edition:** October 2026, published 22 October 2026: [the report](https://planforecast.co.uk/research/planning-decisions/2026-10)
+- **Window:** decisions from October 2023 to September 2026, narrowed for a council read over less (its `window_start`)
+- **Councils:** Cheshire West and Chester, Ealing, Leeds, North Yorkshire, Salford, Stockport, Trafford, Wakefield and York
 - **Licence:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **This snapshot:** 12 October 2026
-- **DOI:** [10.5281/zenodo.23327502](https://doi.org/10.5281/zenodo.23327502)
+- **DOI:** [10.5281/zenodo.23327502](https://doi.org/10.5281/zenodo.23327502) (every edition; each has a DOI of its own on the Zenodo record)
 
-Every figure is counted from decisions the councils publish on their own planning registers, and from the decision notices they publish with each refusal.
+## Key findings
+
+- Across the 9 councils we read, 89% of the 30,802 householder planning applications decided in the 36 months to September 2026 (for Ealing, since March 2025; for Wakefield, since June 2025) were approved (Plan Forecast, Planning Decisions Report, October 2026 edition).
+- Across the 9 councils we read, half of the 30,798 householder planning applications decided in the 36 months to September 2026 (for Ealing, since March 2025; for Wakefield, since June 2025) were decided within 55 days, and three quarters within 69 days (Plan Forecast, Planning Decisions Report, October 2026 edition).
+- Of the 9 councils we read, Wakefield approved the highest share of householder planning applications: 96% of the 889 it decided from June 2025 to September 2026 (Plan Forecast, Planning Decisions Report, October 2026 edition).
 
 ## What is in it
 
 | File | Rows | One row is |
 | --- | --- | --- |
-| [`data/refusal-reasons.csv`](data/refusal-reasons.csv) | 376 | a council, a kind of work and a topic: how many refusals gave a reason about that topic |
-| [`data/decisions.csv`](data/decisions.csv) | 80 | a council and a kind of work: decisions, how many were granted, and the dates covered |
+| [`data/decisions.csv`](data/decisions.csv) | 100 | a council and a kind of work (or householder work together): decisions, granted, refused, the share approved and days to decide |
+| [`data/refusal-reasons.csv`](data/refusal-reasons.csv) | 123 | a council and a topic: how many of its refusals read gave a reason about it |
 
-This snapshot covers 89,096 decisions in eight councils, and 3,958 refusals in seven of them, 3,827 of whose decision notices were read.
-
-Councils: Cheshire West and Chester, Leeds, North Yorkshire, Salford, Stockport, Trafford, Wakefield (decisions only) and York. More are added as their registers are read.
+Rows with `scope` `councils` are every council together. Each file names its `edition`.
 
 ## What is deliberately not in it
 
-Counts only. No application reference, no address, no postcode, no coordinates, no proposal text, none of a council's own wording, and no person's name. Plan Forecast does not store the names of applicants, agents, case officers or objectors anywhere.
+Counts only. No application reference, address, postcode, coordinates, proposal text, council wording or person's name. Plan Forecast stores no name of an applicant, agent, case officer or objector anywhere.
+
+## `decisions.csv`
+
+| Column | Meaning |
+| --- | --- |
+| `edition` | The edition, `yyyy-mm` |
+| `scope` | `council`, or `councils` for every council together |
+| `lpa_name`, `lpa_ons_code` | The local planning authority and its ONS code (empty for `councils`) |
+| `proposal_type` | `householder` (the first seven kinds together) or a kind of work (below) |
+| `window_start`, `window_end` | The days counted |
+| `decisions` | Every decision counted, whatever its outcome |
+| `granted`, `refused`, `withdrawn` | By outcome |
+| `approved_percent` | Granted of granted and refused, rounded; empty where `held_back` |
+| `approved_low_percent`, `approved_high_percent` | Its 95% Wilson interval |
+| `timed` | Granted and refused with sound dates: what the days rest on |
+| `p25_days`, `median_days`, `p75_days` | Days from validation (or receipt) to decision: each a day some decision took; empty where fewer than 30 were timed |
+| `held_back` | `true` where fewer than 30 were granted or refused, so the share approved is empty; `decisions` counts withdrawals too |
+
+Kinds of work:
+
+| `proposal_type` | Meaning |
+| --- | --- |
+| `rear_extension` | Rear extension |
+| `side_extension` | Side extension |
+| `two_storey_extension` | Two-storey extension |
+| `loft_dormer` | Loft conversion or dormer |
+| `outbuilding` | Garden room or outbuilding |
+| `garage_conversion` | Garage conversion |
+| `porch_front` | Front porch |
+| `new_dwelling_garden` | New dwelling in a garden |
+| `change_of_use` | Change of use |
 
 ## `refusal-reasons.csv`
 
-| Column | Type | Meaning |
-| --- | --- | --- |
-| `lpa_name` | text | The local planning authority |
-| `lpa_ons_code` | text | Its ONS code, for joining to other data (`E06000065`) |
-| `proposal_type` | text | The kind of work (below), or `all` for every kind together, each refusal counted once |
-| `refusals` | integer | Refusals of that kind of work in the window |
-| `refusals_read` | integer | Of those, the refusals whose decision notice was read |
-| `topic` | text | What a reason was about (below) |
-| `refusals_citing_topic` | integer | Of the refusals read, how many gave at least one reason about this topic |
-| `window_months` | integer | How many months back the counts reach (36, or fewer where a council's register has been read for less) |
+| Column | Meaning |
+| --- | --- |
+| `edition`, `scope`, `lpa_name`, `lpa_ons_code`, `window_start`, `window_end` | As above |
+| `refusals` | Refusals in the window |
+| `refusals_read` | Of those, the refusals whose decision notice was read |
+| `topic` | What a reason was about (below) |
+| `refusals_citing_topic` | Of the refusals read, how many gave at least one reason about this topic |
+| `share_percent` | That, of the refusals read |
 
-How to read it:
-
-- A refusal usually gives several reasons, so a council's topics add up to more than its refusals read. The share of refusals citing a topic is `refusals_citing_topic / refusals_read`.
-- A refusal whose notice was not read is counted as a refusal, never as a refusal without reasons.
-- A council and kind of work appear only where at least 30 refusals, and at least half of them, were read.
-- The topic is Plan Forecast's sorting of the council's reason. The reasons were cut from the notices and sorted into topics by software, and the sorting is checked against a person's.
-
-Topics:
+A council appears only where at least 30 of its refusals, and half of them, were read. A refusal usually gives several reasons, so the shares add up to more than 100.
 
 | `topic` | Meaning |
 | --- | --- |
@@ -65,70 +89,25 @@ Topics:
 | `insufficient_information` | Insufficient information |
 | `other` | Other |
 
-## `decisions.csv`
-
-| Column | Type | Meaning |
-| --- | --- | --- |
-| `lpa_name` | text | The local planning authority |
-| `lpa_ons_code` | text | Its ONS code |
-| `proposal_type` | text | The kind of work (below), or `all` for every decision read from the council's register |
-| `decisions` | integer | For a kind of work, decisions granted or refused. For `all`, every decision |
-| `granted` | integer | Decisions granted. Empty on an `all` row and where the rate is withheld |
-| `grant_rate` | number | Granted divided by granted plus refused. Withdrawn applications are never counted as refusals. Empty where withheld |
-| `indicative` | boolean | `true` where the rate rests on 10 to 29 decisions: a small sample |
-| `window_start` | date | The earliest decision counted |
-| `window_end` | date | The latest decision counted |
-
-An empty `grant_rate` means "too few to say" (under ten decisions), not zero.
-
-Kinds of work:
-
-| `proposal_type` | Meaning |
-| --- | --- |
-| `rear_extension` | Rear extension |
-| `side_extension` | Side extension |
-| `two_storey_extension` | Two-storey extension |
-| `loft_dormer` | Loft conversion or dormer |
-| `outbuilding` | Garden room or outbuilding |
-| `garage_conversion` | Garage conversion |
-| `porch_front` | Front porch |
-| `new_dwelling_garden` | New dwelling in a garden |
-| `change_of_use` | Change of use |
-
-## Example
-
-```python
-import pandas as pd
-
-reasons = pd.read_csv("data/refusal-reasons.csv")
-reasons["share"] = reasons["refusals_citing_topic"] / reasons["refusals_read"]
-
-# What gets a rear extension refused, council by council
-rear = reasons[reasons["proposal_type"] == "rear_extension"]
-print(rear.pivot(index="topic", columns="lpa_name", values="share").round(2))
-```
-
 ## Updates
 
-The figures on [planforecast.co.uk/data](https://planforecast.co.uk/data) are generated from the live counts and change daily. This copy is a dated snapshot; each release here is a new snapshot. `./update.sh` refreshes the files from the site.
-
-## Where else it is published
-
-The same files, each linking back to [planforecast.co.uk/data](https://planforecast.co.uk/data):
-
-- **Zenodo:** <https://doi.org/10.5281/zenodo.23327502>
-- **Kaggle:** <https://www.kaggle.com/datasets/planforecast/why-english-councils-refuse-planning-permission>
-- **Hugging Face:** <https://huggingface.co/datasets/planforecast/planning-refusal-reasons>
+A new edition on the first of each month, released here by Plan Forecast's own machine: the files, this README and a GitHub release, from which Zenodo makes a new version of the DOI. Earlier editions stay on the Zenodo record and at their own addresses on the site.
 
 ## How to cite
 
-> Plan Forecast (2026). Why English councils refuse planning permission: decisions and refusal reasons by council and kind of work. Zenodo. https://doi.org/10.5281/zenodo.23327502. Source: https://planforecast.co.uk/data
-
-That DOI always resolves to the latest snapshot; each snapshot also has a DOI of its own, listed on the Zenodo record.
+> Plan Forecast (2026). The Plan Forecast Planning Decisions Report, October 2026 edition. https://planforecast.co.uk/research/planning-decisions/2026-10. https://doi.org/10.5281/zenodo.23327502
 
 Attribution, where you reuse the figures:
 
 > Planning decision figures by Plan Forecast (planforecast.co.uk), counted from local planning authorities' own public registers.
+
+## Where else it is published
+
+- **The report:** <https://planforecast.co.uk/research/planning-decisions/2026-10>
+- **Zenodo:** <https://doi.org/10.5281/zenodo.23327502>
+- **GitHub:** <https://github.com/planforecast/planning-refusal-reasons>
+- **Kaggle:** <https://www.kaggle.com/datasets/planforecast/why-english-councils-refuse-planning-permission>
+- **Hugging Face:** <https://huggingface.co/datasets/planforecast/planning-refusal-reasons>
 
 ## Licence
 

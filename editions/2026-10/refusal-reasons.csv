@@ -1,0 +1,124 @@
+edition,scope,lpa_name,lpa_ons_code,window_start,window_end,refusals,refusals_read,topic,refusals_citing_topic,share_percent
+2026-10,council,Cheshire West and Chester,E06000050,2023-10-01,2026-09-30,314,306,design_character,163,53
+2026-10,council,Cheshire West and Chester,E06000050,2023-10-01,2026-09-30,314,306,green_belt_open_countryside,73,24
+2026-10,council,Cheshire West and Chester,E06000050,2023-10-01,2026-09-30,314,306,residential_amenity,67,22
+2026-10,council,Cheshire West and Chester,E06000050,2023-10-01,2026-09-30,314,306,permitted_development,50,16
+2026-10,council,Cheshire West and Chester,E06000050,2023-10-01,2026-09-30,314,306,insufficient_information,40,13
+2026-10,council,Cheshire West and Chester,E06000050,2023-10-01,2026-09-30,314,306,heritage,28,9
+2026-10,council,Cheshire West and Chester,E06000050,2023-10-01,2026-09-30,314,306,highway_parking,27,9
+2026-10,council,Cheshire West and Chester,E06000050,2023-10-01,2026-09-30,314,306,principle_of_development,20,7
+2026-10,council,Cheshire West and Chester,E06000050,2023-10-01,2026-09-30,314,306,trees_landscape_ecology,12,4
+2026-10,council,Cheshire West and Chester,E06000050,2023-10-01,2026-09-30,314,306,living_conditions_future_occupiers,9,3
+2026-10,council,Cheshire West and Chester,E06000050,2023-10-01,2026-09-30,314,306,other,5,2
+2026-10,council,Cheshire West and Chester,E06000050,2023-10-01,2026-09-30,314,306,flood_drainage,4,1
+2026-10,council,Cheshire West and Chester,E06000050,2023-10-01,2026-09-30,314,306,neighbouring_land_use_conflict,1,0
+2026-10,council,Ealing,E09000009,2025-03-01,2026-09-30,623,540,design_character,184,34
+2026-10,council,Ealing,E09000009,2025-03-01,2026-09-30,623,540,permitted_development,167,31
+2026-10,council,Ealing,E09000009,2025-03-01,2026-09-30,623,540,living_conditions_future_occupiers,141,26
+2026-10,council,Ealing,E09000009,2025-03-01,2026-09-30,623,540,residential_amenity,117,22
+2026-10,council,Ealing,E09000009,2025-03-01,2026-09-30,623,540,insufficient_information,72,13
+2026-10,council,Ealing,E09000009,2025-03-01,2026-09-30,623,540,heritage,41,8
+2026-10,council,Ealing,E09000009,2025-03-01,2026-09-30,623,540,highway_parking,40,7
+2026-10,council,Ealing,E09000009,2025-03-01,2026-09-30,623,540,principle_of_development,20,4
+2026-10,council,Ealing,E09000009,2025-03-01,2026-09-30,623,540,trees_landscape_ecology,7,1
+2026-10,council,Ealing,E09000009,2025-03-01,2026-09-30,623,540,other,5,1
+2026-10,council,Ealing,E09000009,2025-03-01,2026-09-30,623,540,neighbouring_land_use_conflict,3,1
+2026-10,council,Ealing,E09000009,2025-03-01,2026-09-30,623,540,flood_drainage,1,0
+2026-10,council,Ealing,E09000009,2025-03-01,2026-09-30,623,540,green_belt_open_countryside,1,0
+2026-10,council,Leeds,E08000035,2023-10-01,2026-09-30,1653,1606,design_character,765,48
+2026-10,council,Leeds,E08000035,2023-10-01,2026-09-30,1653,1606,residential_amenity,436,27
+2026-10,council,Leeds,E08000035,2023-10-01,2026-09-30,1653,1606,permitted_development,302,19
+2026-10,council,Leeds,E08000035,2023-10-01,2026-09-30,1653,1606,highway_parking,182,11
+2026-10,council,Leeds,E08000035,2023-10-01,2026-09-30,1653,1606,insufficient_information,151,9
+2026-10,council,Leeds,E08000035,2023-10-01,2026-09-30,1653,1606,living_conditions_future_occupiers,150,9
+2026-10,council,Leeds,E08000035,2023-10-01,2026-09-30,1653,1606,green_belt_open_countryside,106,7
+2026-10,council,Leeds,E08000035,2023-10-01,2026-09-30,1653,1606,trees_landscape_ecology,101,6
+2026-10,council,Leeds,E08000035,2023-10-01,2026-09-30,1653,1606,heritage,99,6
+2026-10,council,Leeds,E08000035,2023-10-01,2026-09-30,1653,1606,principle_of_development,40,2
+2026-10,council,Leeds,E08000035,2023-10-01,2026-09-30,1653,1606,flood_drainage,13,1
+2026-10,council,Leeds,E08000035,2023-10-01,2026-09-30,1653,1606,other,6,0
+2026-10,council,Leeds,E08000035,2023-10-01,2026-09-30,1653,1606,neighbouring_land_use_conflict,5,0
+2026-10,council,North Yorkshire,E06000065,2023-10-01,2026-09-30,747,695,design_character,256,37
+2026-10,council,North Yorkshire,E06000065,2023-10-01,2026-09-30,747,695,heritage,138,20
+2026-10,council,North Yorkshire,E06000065,2023-10-01,2026-09-30,747,695,residential_amenity,137,20
+2026-10,council,North Yorkshire,E06000065,2023-10-01,2026-09-30,747,695,green_belt_open_countryside,131,19
+2026-10,council,North Yorkshire,E06000065,2023-10-01,2026-09-30,747,695,insufficient_information,128,18
+2026-10,council,North Yorkshire,E06000065,2023-10-01,2026-09-30,747,695,permitted_development,111,16
+2026-10,council,North Yorkshire,E06000065,2023-10-01,2026-09-30,747,695,highway_parking,89,13
+2026-10,council,North Yorkshire,E06000065,2023-10-01,2026-09-30,747,695,principle_of_development,56,8
+2026-10,council,North Yorkshire,E06000065,2023-10-01,2026-09-30,747,695,living_conditions_future_occupiers,45,6
+2026-10,council,North Yorkshire,E06000065,2023-10-01,2026-09-30,747,695,trees_landscape_ecology,42,6
+2026-10,council,North Yorkshire,E06000065,2023-10-01,2026-09-30,747,695,flood_drainage,39,6
+2026-10,council,North Yorkshire,E06000065,2023-10-01,2026-09-30,747,695,neighbouring_land_use_conflict,5,1
+2026-10,council,North Yorkshire,E06000065,2023-10-01,2026-09-30,747,695,other,3,0
+2026-10,council,Salford,E08000006,2023-10-01,2026-09-30,234,223,residential_amenity,90,40
+2026-10,council,Salford,E08000006,2023-10-01,2026-09-30,234,223,design_character,76,34
+2026-10,council,Salford,E08000006,2023-10-01,2026-09-30,234,223,living_conditions_future_occupiers,43,19
+2026-10,council,Salford,E08000006,2023-10-01,2026-09-30,234,223,permitted_development,32,14
+2026-10,council,Salford,E08000006,2023-10-01,2026-09-30,234,223,insufficient_information,27,12
+2026-10,council,Salford,E08000006,2023-10-01,2026-09-30,234,223,highway_parking,13,6
+2026-10,council,Salford,E08000006,2023-10-01,2026-09-30,234,223,heritage,12,5
+2026-10,council,Salford,E08000006,2023-10-01,2026-09-30,234,223,neighbouring_land_use_conflict,10,4
+2026-10,council,Salford,E08000006,2023-10-01,2026-09-30,234,223,trees_landscape_ecology,10,4
+2026-10,council,Salford,E08000006,2023-10-01,2026-09-30,234,223,flood_drainage,4,2
+2026-10,council,Salford,E08000006,2023-10-01,2026-09-30,234,223,green_belt_open_countryside,4,2
+2026-10,council,Salford,E08000006,2023-10-01,2026-09-30,234,223,principle_of_development,4,2
+2026-10,council,Salford,E08000006,2023-10-01,2026-09-30,234,223,other,1,0
+2026-10,council,Stockport,E08000007,2023-10-01,2026-09-30,191,178,permitted_development,55,31
+2026-10,council,Stockport,E08000007,2023-10-01,2026-09-30,191,178,design_character,49,28
+2026-10,council,Stockport,E08000007,2023-10-01,2026-09-30,191,178,residential_amenity,42,24
+2026-10,council,Stockport,E08000007,2023-10-01,2026-09-30,191,178,heritage,27,15
+2026-10,council,Stockport,E08000007,2023-10-01,2026-09-30,191,178,living_conditions_future_occupiers,24,13
+2026-10,council,Stockport,E08000007,2023-10-01,2026-09-30,191,178,insufficient_information,16,9
+2026-10,council,Stockport,E08000007,2023-10-01,2026-09-30,191,178,highway_parking,15,8
+2026-10,council,Stockport,E08000007,2023-10-01,2026-09-30,191,178,green_belt_open_countryside,6,3
+2026-10,council,Stockport,E08000007,2023-10-01,2026-09-30,191,178,flood_drainage,1,1
+2026-10,council,Stockport,E08000007,2023-10-01,2026-09-30,191,178,principle_of_development,1,1
+2026-10,council,Trafford,E08000009,2023-10-01,2026-09-30,597,590,design_character,338,57
+2026-10,council,Trafford,E08000009,2023-10-01,2026-09-30,597,590,residential_amenity,158,27
+2026-10,council,Trafford,E08000009,2023-10-01,2026-09-30,597,590,permitted_development,144,24
+2026-10,council,Trafford,E08000009,2023-10-01,2026-09-30,597,590,heritage,58,10
+2026-10,council,Trafford,E08000009,2023-10-01,2026-09-30,597,590,insufficient_information,23,4
+2026-10,council,Trafford,E08000009,2023-10-01,2026-09-30,597,590,living_conditions_future_occupiers,22,4
+2026-10,council,Trafford,E08000009,2023-10-01,2026-09-30,597,590,highway_parking,13,2
+2026-10,council,Trafford,E08000009,2023-10-01,2026-09-30,597,590,trees_landscape_ecology,9,2
+2026-10,council,Trafford,E08000009,2023-10-01,2026-09-30,597,590,principle_of_development,8,1
+2026-10,council,Trafford,E08000009,2023-10-01,2026-09-30,597,590,green_belt_open_countryside,3,1
+2026-10,council,Trafford,E08000009,2023-10-01,2026-09-30,597,590,neighbouring_land_use_conflict,2,0
+2026-10,council,Trafford,E08000009,2023-10-01,2026-09-30,597,590,flood_drainage,1,0
+2026-10,council,Wakefield,E08000036,2025-06-01,2026-09-30,75,73,design_character,25,34
+2026-10,council,Wakefield,E08000036,2025-06-01,2026-09-30,75,73,residential_amenity,21,29
+2026-10,council,Wakefield,E08000036,2025-06-01,2026-09-30,75,73,insufficient_information,18,25
+2026-10,council,Wakefield,E08000036,2025-06-01,2026-09-30,75,73,living_conditions_future_occupiers,13,18
+2026-10,council,Wakefield,E08000036,2025-06-01,2026-09-30,75,73,heritage,9,12
+2026-10,council,Wakefield,E08000036,2025-06-01,2026-09-30,75,73,highway_parking,8,11
+2026-10,council,Wakefield,E08000036,2025-06-01,2026-09-30,75,73,green_belt_open_countryside,7,10
+2026-10,council,Wakefield,E08000036,2025-06-01,2026-09-30,75,73,trees_landscape_ecology,4,5
+2026-10,council,Wakefield,E08000036,2025-06-01,2026-09-30,75,73,permitted_development,3,4
+2026-10,council,Wakefield,E08000036,2025-06-01,2026-09-30,75,73,flood_drainage,1,1
+2026-10,council,Wakefield,E08000036,2025-06-01,2026-09-30,75,73,principle_of_development,1,1
+2026-10,council,York,E06000014,2023-10-01,2026-09-30,398,390,design_character,172,44
+2026-10,council,York,E06000014,2023-10-01,2026-09-30,398,390,residential_amenity,110,28
+2026-10,council,York,E06000014,2023-10-01,2026-09-30,398,390,highway_parking,76,19
+2026-10,council,York,E06000014,2023-10-01,2026-09-30,398,390,green_belt_open_countryside,37,9
+2026-10,council,York,E06000014,2023-10-01,2026-09-30,398,390,heritage,37,9
+2026-10,council,York,E06000014,2023-10-01,2026-09-30,398,390,insufficient_information,36,9
+2026-10,council,York,E06000014,2023-10-01,2026-09-30,398,390,living_conditions_future_occupiers,32,8
+2026-10,council,York,E06000014,2023-10-01,2026-09-30,398,390,permitted_development,23,6
+2026-10,council,York,E06000014,2023-10-01,2026-09-30,398,390,principle_of_development,14,4
+2026-10,council,York,E06000014,2023-10-01,2026-09-30,398,390,flood_drainage,11,3
+2026-10,council,York,E06000014,2023-10-01,2026-09-30,398,390,trees_landscape_ecology,8,2
+2026-10,council,York,E06000014,2023-10-01,2026-09-30,398,390,neighbouring_land_use_conflict,5,1
+2026-10,councils,,,2023-10-01,2026-09-30,4832,4601,design_character,2028,44
+2026-10,councils,,,2023-10-01,2026-09-30,4832,4601,residential_amenity,1178,26
+2026-10,councils,,,2023-10-01,2026-09-30,4832,4601,permitted_development,887,19
+2026-10,councils,,,2023-10-01,2026-09-30,4832,4601,insufficient_information,511,11
+2026-10,councils,,,2023-10-01,2026-09-30,4832,4601,living_conditions_future_occupiers,479,10
+2026-10,councils,,,2023-10-01,2026-09-30,4832,4601,highway_parking,463,10
+2026-10,councils,,,2023-10-01,2026-09-30,4832,4601,heritage,449,10
+2026-10,councils,,,2023-10-01,2026-09-30,4832,4601,green_belt_open_countryside,368,8
+2026-10,councils,,,2023-10-01,2026-09-30,4832,4601,trees_landscape_ecology,193,4
+2026-10,councils,,,2023-10-01,2026-09-30,4832,4601,principle_of_development,164,4
+2026-10,councils,,,2023-10-01,2026-09-30,4832,4601,flood_drainage,75,2
+2026-10,councils,,,2023-10-01,2026-09-30,4832,4601,neighbouring_land_use_conflict,31,1
+2026-10,councils,,,2023-10-01,2026-09-30,4832,4601,other,20,0

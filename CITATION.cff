@@ -1,24 +1,26 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
 type: dataset
-title: "Why English councils refuse planning permission: decisions and refusal reasons by council and kind of work"
+title: "The Plan Forecast Planning Decisions Report: planning decisions, decision times and refusal reasons by council and kind of work"
 authors:
   - name: "Plan Forecast"
     website: "https://planforecast.co.uk"
-version: "2026.10"
-date-released: "2026-10-12"
-url: "https://planforecast.co.uk/data"
+version: "2026-10"
+date-released: "2026-10-22"
+url: "https://planforecast.co.uk/research/planning-decisions/2026-10"
 repository-code: "https://github.com/planforecast/planning-refusal-reasons"
 license: CC-BY-4.0
 doi: 10.5281/zenodo.23327502
 identifiers:
   - type: doi
     value: 10.5281/zenodo.23327502
-    description: "All versions (always resolves to the latest snapshot)"
+    description: "All editions (always resolves to the latest)"
 keywords:
   - planning permission
   - planning applications
+  - planning decisions
   - refusal reasons
+  - decision times
   - local planning authorities
   - England
   - open data
